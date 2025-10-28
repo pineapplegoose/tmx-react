@@ -35,8 +35,8 @@ export function signInMock({
 export function signUpMock({
   name,
   email,
-  password,
-}: {
+}: //password,
+{
   name: string
   email: string
   password: string

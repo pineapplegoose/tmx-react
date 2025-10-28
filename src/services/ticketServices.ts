@@ -49,7 +49,7 @@ export function fetchTickets(): Promise<Ticket[]> {
 export function createTicket(
   payload: Omit<Ticket, "id" | "createdAt" | "updatedAt">
 ): Promise<Ticket> {
-  return new Promise((resolve, reject) => {
+  return new Promise((resolve) => {
     setTimeout(() => {
       const now = new Date().toISOString()
       const ticket: Ticket = {

@@ -1,4 +1,4 @@
-import { Link, useLocation, useNavigate } from 'react-router';
+import { Link, useNavigate } from 'react-router';
 import { getSession, signOut } from '../services/authServices';
 
 export const Nav = () => {
