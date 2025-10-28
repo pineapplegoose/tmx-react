@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+.background{
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+background-color: #800080;
+opacity: 0.8;
+background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #800080 10px ), repeating-linear-gradient( #ffc0cb55, #ffc0cb );
+}
+
+.container-max {
+  max-width: 1440px;
+}
+
+.hero-circle {
+  background: linear-gradient(135deg, rgba(99,102,241,0.12), rgba(168,85,247,0.12));
+  box-shadow: 0 10px 30px rgba(15,23,42,0.08);
+}
+
+.card {
+  background: white;
+  border-radius: 1rem;
+  box-shadow: 0 6px 18px rgba(15,23,42,0.06);
+}
